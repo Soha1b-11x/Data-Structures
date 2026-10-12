@@ -20,7 +20,7 @@ void Heapify(int arr[] , int idx , int n){
 }
 
 void createMaxHeap(int arr[] , int n){
-    //step up approach
+    //step down approach
     for(int i=(n-1)/2 ; i>=0 ;i--){
         Heapify(arr , i , n);
     }
